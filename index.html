@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PLEASE READ</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/7.css" />
+    <!-- Add the favicon link here -->
+    <link rel="icon" href="falcon.ico" type="image/x-icon"> <!-- Link to your falcon.ico file -->
+
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+
+      /* Set the background image */
+      body {
+        background: url('bg.png') no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      /* This is the "Aero" Glass Window Effect */
+      .window {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.3); /* Semi-transparent */
+        backdrop-filter: blur(10px); /* Background blur */
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Optional shadow around window */
+      }
+
+      .title-bar {
+        flex-shrink: 0;
+      }
+
+      .window-body {
+        flex-grow: 1;
+        padding: 20px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      /* Position credits at the bottom inside the window */
+      .credits {
+        font-size: 0.7rem;
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        background-color: #f1f1f1;
+        color: #888;
+        padding: 5px 0;
+      }
+
+      /* Style for Cooler 01 at the top */
+      .header {
+        font-size: 2rem;
+        color: orange;
+        text-align: center;
+      }
+
+      /* Style for smaller welcome text below the header */
+      .welcome {
+        font-size: 1rem;
+        text-align: center;
+        color: #333;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- This is the main window with the Aero effect -->
+    <div class="background">
+      <div class="window glass active" style="max-width: 100%">
+        <div class="title-bar">
+          <div class="title-bar-text">Website is offline for now and please read the text below</div>
+          <div class="title-bar-controls">
+            <!-- Optional controls can go here -->
+          </div>
+        </div>
+        <div class="window-body">
+          <!-- Added the content from the Cooler 01s Website! window -->
+          <!-- Header and Welcome Text -->
+          <div class="header">Hello! I Will be improving my website (i got help from ai alot of stuff was broken)</div>
+          <div class="welcome">i want to own up to my mistakes of releasing a unfinished web page and i will be adding more! and of course I WILL RELEASE THE WEBSITE SOON!!! if you would like add suggestions in the ISSUE area (there isnt a suggestion area for github lol)</div>
+
+          <!-- Main Content -->
+          <p></p>
+
+          <!-- Credits -->
+          <div class="credits">
+            <p>Credits to <a href="https://github.com/khang-nd/7.css" target="_blank">7.css</a> for the window styling.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
