@@ -4,3 +4,4 @@ and of course COMING SOON
 
 
 https://cooler01233232.github.io/Cooler-01s-website/ heres the web page for rn
+Planning to buy a domain
